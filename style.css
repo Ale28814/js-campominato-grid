@@ -5,10 +5,17 @@
     font-family: sans-serif;
 }
 
+body{
+    background-color: #7fffd4;
+}
+/*HEADER*/
+
+/*logo-title*/
 .bar{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: #fff;
 }
 
 img{
@@ -17,13 +24,42 @@ img{
     vertical-align: middle;
 }
 
-.title h1{
+.logo-title h1{
     display: inline;
     vertical-align: middle;
 }
 
+/*select*/
 .select{
     font-size: 20px;
     margin-top: 25px;
     margin-right: 25px;
+}
+
+/*GRID*/
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    margin: 60px auto;
+    border: 1px solid black;
+}
+
+.square{
+    width: calc(100% / 7);
+    height: calc(100% / 7);
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.square.clicked{
+    background-color: #6495ed;
+}
+
+/*FOOTER*/
+footer{
+    height: 80px;
+    margin-top: 300px;
+    background-color: #fff;
 }
