@@ -56,10 +56,3 @@ img{
 .square.clicked{
     background-color: #6495ed;
 }
-
-/*FOOTER*/
-footer{
-    height: 80px;
-    margin-top: 300px;
-    background-color: #fff;
-}
